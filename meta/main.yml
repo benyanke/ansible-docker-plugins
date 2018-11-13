@@ -1,0 +1,22 @@
+galaxy_info:
+
+  role_name: docker-plugins
+  author: Ben Yanke
+  description: An ansible role to install docker plugins
+
+  issue_tracker_url: https://github.com/benyanke/ansible-docker-plugins/issues
+  license: GPLv3
+  min_ansible_version: 2.4
+
+  # Should likely work on other platforms, but not officially supported or tested
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+
+  galaxy_tags:
+    - docker
+    - docker-swarm
+    - docker-plugins
+    - docker-volumes
